@@ -1,18 +1,19 @@
-# dantalk_codingtest
-1. 본 앱은 단톡의 2021년 안드로이드 개발자 신규채용을 위한 과제테스트 목적으로 개발되었습니다. 그 외의 목적으로 사용/배포하실 수 없습니다.
+# s2d5_codingtest
+1. 본 앱은 S2D5의 2022년 안드로이드 개발자 신규채용을 위한 과제테스트 목적으로 개발되었습니다. 그 외의 목적으로 사용/배포하실 수 없습니다.
 
 2. 본 앱의 기능과 화면 구성은 다음과 같습니다
+ - 스플래시
  - 회원가입
  - 로그인
  - 목록보기
  - 자세히 보기
 
 3. 개발환경
- - Android Studio Arctic Fox | 2020.3.1 Patch 1
- - kotlin 1.5.30
- - gradle 7.0.3
- - compileSdk 31
- - minSdk 23
+ - Android Studio Chipmunk | 2021.2.1 Patch 1
+ - kotlin 1.7.0
+ - gradle 7.2.2
+ - compileSdk 32
+ - minSdk 27
  - compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -20,6 +21,7 @@
  -  kotlinOptions {
         jvmTarget = '1.8'
     }
+
 
 4. API
  - 통신방법 : REST API
@@ -112,10 +114,10 @@
 6. 위에 제시되지 않은 라이브러리는 자유롭게 사용하되, 위의  라이브러리를 사용하여 문제를 해결하면 가점이 있습니다
 
 7. 제출방법은 깃허브에 반드시 프라이빗으로 올리고, [setting] - [manage access] - [add people] 에 아래 계정을 초대해주시고, 메일 전체회신 형태로 레포지토리 URL 공유 부탁드립니다
- kiwanpark@dantalk.co.kr
+ kiwanpark@s2d5.com
 
 8. 샘플앱 다운로드 주소
- https://drive.google.com/file/d/13Ed6RK-r4Jao1V3FQ8NJ3YE0XgitVRVm/view?usp=sharing
+ https://firebasestorage.googleapis.com/v0/b/findpcroom-f0e38.appspot.com/o/dantalkTestImage%2Fs2d5_codingtest.apk?alt=media
 
 9. resource files
  https://lottiefiles.com/10008-music-note-character
@@ -123,7 +125,7 @@
  https://drive.google.com/file/d/1_MA_96w8mV_ZRJ8XsfAI2MJjT0QXlVmV/view?usp=sharing
 
 10. 제출 규정
-제출 기한은 2021년 11월 4일 목요일 오후 5시까지이며, 과제 제출은 본 메일의 전체 회신으로 주시면 됩니다. 
+제출 기한은 2022년 9월 25일 일요일 오후 4시까지이며, 과제 제출은 본 메일의 전체 회신으로 주시면 됩니다. 
 
 과제 진행 관련 문의 사항은 아래를 참고하시어 연락 주시기 바랍니다.
 
@@ -131,7 +133,7 @@
 추가로 과제에 대한 간단한 설명을 추가해 주시면 더욱 좋습니다.
 
 과제 내용 관련 질문
-- 메일주소 : kiwanpark@dantalk.co.kr
+- 메일주소 : kiwanpark@s2d5.com
 
 11. 과제 포인트 지급 관련 제출 자료
 
