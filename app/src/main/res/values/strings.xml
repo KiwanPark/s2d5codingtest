@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CodingTest</string>
+    <string name="title_activity_main">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="message_email_input_error">Please enter valid email id</string>
+    <string name="message_password_input_error">Password must be at least 8 characters</string>
+    <string name="image_transition_name">image_transition_name</string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.DetailActivity">
+
+            <ImageView
+                android:id="@+id/mainIv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:transitionName="@string/image_transition_name"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/dummy_image" />
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mainIv"
+                tools:text="As time does by" />
+
+            <TextView
+                android:id="@+id/artistTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTV"
+                tools:text="임희영" />
+
+            <TextView
+                android:id="@+id/artistInfoTitleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                tools:text="Who is 임희영?"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/artistTV"/>
+
+            <TextView
+                android:id="@+id/artistInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/artistInfoTitleTV"
+                android:layout_margin="16dp"
+                tools:text="임희영은 대한민국의 첼리스트이자 교수이다.  2016년 여성 동양인 최초로 네덜란드 로테르담 필하모닉 오케스트라 첼로 수석[1]에 임명됐다.  미국 유력 일간지 워싱턴 포스트로부터 “뛰어난 음악성과 유려한 테크닉을 지닌 주목해야 할 아티스 트”, 영국 BBC 뮤직매거진은 “진정으로 드문 아름다운 음색과 세련된 표현력”이라고 호평받은 첼리스 트 임희영은 문화예술 발전에 기여한 공로를 인정받아 2018년 대한민국 정부로부터 문화체육관광부 장관 표창을 수상하며 한국의 젊은 음악가로서 입지를 굳히고 있다."/>
+
+
+            <TextView
+                android:id="@+id/albumInfoTitleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                tools:text="What about As time does by"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/artistInfoTV"/>
+
+            <TextView
+                android:id="@+id/albumInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/albumInfoTitleTV"
+                android:layout_margin="16dp"
+                tools:text="이번 음반은 그녀가 시도하는 첫 크로스오버 앨범으로 세월이 흘러도 우리에게 변함없이 사랑받는 스탠다드 재즈와 영화음악을 가슴을 울리는 첼로의 깊은 음색에 재즈의 화려한 애드리브가 더해져 주옥같은 명곡을 환상의 하모니로 온전히 감상할 수 있는 음반이다.   클래식 측면의 해석에서 벗어나 한층 자유로워지고 다양한 음악적 경계를 넘나드는 시도로 대중에게 더 가깝게 다가가려는 그녀의 노력을 엿볼 수 있다.  재즈 명곡 ‘미스티‘, ‘문라잇 세레나데’, ‘오버 더 레인보우‘, ‘이파네마의 소녀’를 비롯해 영화속 명곡 티파니에서의 아침을 '문 리버', 카사블랑카로 잘 알려진 '에스 타임 고스 바이', 파리에서의 마지막 탱고, 시티의 짐노페디등 그녀가 어릴 적부터 즐겨듣던 재즈곡과 영화음악을 회상하며 그녀의 추억이 담겨있는 곡들로 첼로와 재즈 트리오로 편곡하여 꾸며졌다."/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
